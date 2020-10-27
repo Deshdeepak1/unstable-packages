@@ -9,7 +9,6 @@ TERMUX_PKG_DEPENDS="binutils, clang, iconv, libffi, llvm, ncurses"
 TERMUX_PKG_BUILD_IN_SRC=true
 TERMUX_PKG_NO_STATICSPLIT=true
 TERMUX_PKG_EXTRA_CONFIGURE_ARGS=" --disable-ld-override --build=x86_64-unknown-linux --host=x86_64-unknown-linux"
-TERMUX_PKG_BLACKLISTED_ARCHES="arm"
 
 DYNAMIC_GHC_PROGRAMS=NO
 
